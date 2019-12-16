@@ -6,9 +6,9 @@ def create_an_array
   ["dog", "cat", "mouse", "horse"]
 end
 
-def add_element_to_end_of_array(array, element)
-  array = ["dog", "cat", "mouse", "horse"]
+ array = ["dog", "cat", "mouse", "horse"]
   element = "pig"
+def add_element_to_end_of_array(array, element)
   do array << element
 end
 
